@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Dosis from "./pages/Dosis";
+import Home from "./pages/Home";
+import WaktuInfus from "./pages/WaktuInfus";
+import KecepatanInfus from "./pages/KecepatanInfus";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/dosis" element={<Dosis />} />
+          <Route path="/waktu-infus" element={<WaktuInfus />} />
+          <Route path="/kecepatan-infus" element={<KecepatanInfus />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
