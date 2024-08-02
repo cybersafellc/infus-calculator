@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.fa0b9252.css",
-    "main.js": "./static/js/main.bba46d10.js",
-    "index.html": "./index.html",
-    "main.fa0b9252.css.map": "./static/css/main.fa0b9252.css.map",
-    "main.bba46d10.js.map": "./static/js/main.bba46d10.js.map"
+    "main.css": "/infus-calculator/static/css/main.fa0b9252.css",
+    "main.js": "/infus-calculator/static/js/main.bba46d10.js",
+    "index.html": "/infus-calculator/index.html",
+    "main.fa0b9252.css.map": "/infus-calculator/static/css/main.fa0b9252.css.map",
+    "main.bba46d10.js.map": "/infus-calculator/static/js/main.bba46d10.js.map"
   },
   "entrypoints": [
     "static/css/main.fa0b9252.css",
